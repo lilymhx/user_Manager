@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="App_Info_DB:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>App_Info_DB</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="App_Info_DB.war">
+      <element id="artifact" artifact-name="App_Info_DB:war exploded" />
+    </root>
+  </artifact>
+</component>
